@@ -10,7 +10,7 @@ Object {
     },
   },
   "Resources": Object {
-    "WafIpRateLimitRuleGroup": Object {
+    "WafManagedRulesSetWebACL": Object {
       "Properties": Object {
         "DefaultAction": Object {
           "Allow": Object {},

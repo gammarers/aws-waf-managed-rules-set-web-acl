@@ -13,12 +13,12 @@ describe('Web Acl rule default group testing', () => {
     },
   });
 
-  const ruleGroup = new WafManagedRulesSetWebACL(stack, 'WafIpRateLimitRuleGroup', {
+  const acl = new WafManagedRulesSetWebACL(stack, 'WafManagedRulesSetWebACL', {
     scope: ScopeType.GLOBAL,
   });
 
   it('Is Waf Web ACL', () => {
-    expect(ruleGroup).toBeInstanceOf(waf.CfnWebACL);
+    expect(acl).toBeInstanceOf(waf.CfnWebACL);
   });
 
   const template = Template.fromStack(stack);
