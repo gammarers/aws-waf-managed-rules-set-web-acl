@@ -1,150 +1,150 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Web Acl rule default group testing Should match snapshot 1`] = `
-Object {
-  "Parameters": Object {
-    "BootstrapVersion": Object {
+{
+  "Parameters": {
+    "BootstrapVersion": {
       "Default": "/cdk-bootstrap/hnb659fds/version",
       "Description": "Version of the CDK Bootstrap resources in this environment, automatically retrieved from SSM Parameter Store. [cdk:skip]",
       "Type": "AWS::SSM::Parameter::Value<String>",
     },
   },
-  "Resources": Object {
-    "WafManagedRulesSetWebACL": Object {
-      "Properties": Object {
-        "DefaultAction": Object {
-          "Allow": Object {},
+  "Resources": {
+    "WafManagedRulesSetWebACL": {
+      "Properties": {
+        "DefaultAction": {
+          "Allow": {},
         },
         "Description": "",
-        "Rules": Array [
-          Object {
+        "Rules": [
+          {
             "Name": "aws-managed-rules-common-rule-set",
-            "OverrideAction": Object {
-              "Count": Object {},
+            "OverrideAction": {
+              "Count": {},
             },
             "Priority": 0,
-            "Statement": Object {
-              "ManagedRuleGroupStatement": Object {
-                "ExcludedRules": Array [],
+            "Statement": {
+              "ManagedRuleGroupStatement": {
+                "ExcludedRules": [],
                 "Name": "AWSManagedRulesCommonRuleSet",
                 "VendorName": "AWS",
               },
             },
-            "VisibilityConfig": Object {
+            "VisibilityConfig": {
               "CloudWatchMetricsEnabled": true,
               "MetricName": "AWSManagedRulesCommonRuleSet",
               "SampledRequestsEnabled": true,
             },
           },
-          Object {
+          {
             "Name": "aws-managed-rules-known-bad-inputs-rule-set",
-            "OverrideAction": Object {
-              "Count": Object {},
+            "OverrideAction": {
+              "Count": {},
             },
             "Priority": 1,
-            "Statement": Object {
-              "ManagedRuleGroupStatement": Object {
-                "ExcludedRules": Array [],
+            "Statement": {
+              "ManagedRuleGroupStatement": {
+                "ExcludedRules": [],
                 "Name": "AWSManagedRulesKnownBadInputsRuleSet",
                 "VendorName": "AWS",
               },
             },
-            "VisibilityConfig": Object {
+            "VisibilityConfig": {
               "CloudWatchMetricsEnabled": true,
               "MetricName": "AWSManagedRulesKnownBadInputsRuleSet",
               "SampledRequestsEnabled": true,
             },
           },
-          Object {
+          {
             "Name": "aws-managed-rules-amazon-ip-reputation-rule-set",
-            "OverrideAction": Object {
-              "Count": Object {},
+            "OverrideAction": {
+              "Count": {},
             },
             "Priority": 2,
-            "Statement": Object {
-              "ManagedRuleGroupStatement": Object {
-                "ExcludedRules": Array [],
+            "Statement": {
+              "ManagedRuleGroupStatement": {
+                "ExcludedRules": [],
                 "Name": "AWSManagedRulesAmazonIpReputationList",
                 "VendorName": "AWS",
               },
             },
-            "VisibilityConfig": Object {
+            "VisibilityConfig": {
               "CloudWatchMetricsEnabled": true,
               "MetricName": "AWSManagedRulesAmazonIpReputationList",
               "SampledRequestsEnabled": true,
             },
           },
-          Object {
+          {
             "Name": "aws-managed-rules-anonymous-ip-list",
-            "OverrideAction": Object {
-              "Count": Object {},
+            "OverrideAction": {
+              "Count": {},
             },
             "Priority": 3,
-            "Statement": Object {
-              "ManagedRuleGroupStatement": Object {
-                "ExcludedRules": Array [],
+            "Statement": {
+              "ManagedRuleGroupStatement": {
+                "ExcludedRules": [],
                 "Name": "AWSManagedRulesAnonymousIpList",
                 "VendorName": "AWS",
               },
             },
-            "VisibilityConfig": Object {
+            "VisibilityConfig": {
               "CloudWatchMetricsEnabled": true,
               "MetricName": "AWSManagedRulesAnonymousIpList",
               "SampledRequestsEnabled": true,
             },
           },
-          Object {
+          {
             "Name": "aws-managed-rules-sqli-rule-set",
-            "OverrideAction": Object {
-              "Count": Object {},
+            "OverrideAction": {
+              "Count": {},
             },
             "Priority": 4,
-            "Statement": Object {
-              "ManagedRuleGroupStatement": Object {
-                "ExcludedRules": Array [],
+            "Statement": {
+              "ManagedRuleGroupStatement": {
+                "ExcludedRules": [],
                 "Name": "AWSManagedRulesSQLiRuleSet",
                 "VendorName": "AWS",
               },
             },
-            "VisibilityConfig": Object {
+            "VisibilityConfig": {
               "CloudWatchMetricsEnabled": true,
               "MetricName": "AWSManagedRulesSQLiRuleSet",
               "SampledRequestsEnabled": true,
             },
           },
-          Object {
+          {
             "Name": "aws-managed-rules-linux-rule-set",
-            "OverrideAction": Object {
-              "Count": Object {},
+            "OverrideAction": {
+              "Count": {},
             },
             "Priority": 5,
-            "Statement": Object {
-              "ManagedRuleGroupStatement": Object {
-                "ExcludedRules": Array [],
+            "Statement": {
+              "ManagedRuleGroupStatement": {
+                "ExcludedRules": [],
                 "Name": "AWSManagedRulesLinuxRuleSet",
                 "VendorName": "AWS",
               },
             },
-            "VisibilityConfig": Object {
+            "VisibilityConfig": {
               "CloudWatchMetricsEnabled": true,
               "MetricName": "AWSManagedRulesLinuxRuleSet",
               "SampledRequestsEnabled": true,
             },
           },
-          Object {
+          {
             "Name": "aws-managed-rules-unix-rule-set",
-            "OverrideAction": Object {
-              "Count": Object {},
+            "OverrideAction": {
+              "Count": {},
             },
             "Priority": 6,
-            "Statement": Object {
-              "ManagedRuleGroupStatement": Object {
-                "ExcludedRules": Array [],
+            "Statement": {
+              "ManagedRuleGroupStatement": {
+                "ExcludedRules": [],
                 "Name": "AWSManagedRulesUnixRuleSet",
                 "VendorName": "AWS",
               },
             },
-            "VisibilityConfig": Object {
+            "VisibilityConfig": {
               "CloudWatchMetricsEnabled": true,
               "MetricName": "AWSManagedRulesUnixRuleSet",
               "SampledRequestsEnabled": true,
@@ -152,7 +152,7 @@ Object {
           },
         ],
         "Scope": "CLOUDFRONT",
-        "VisibilityConfig": Object {
+        "VisibilityConfig": {
           "CloudWatchMetricsEnabled": true,
           "MetricName": "WafManagedRulesSetWebACL",
           "SampledRequestsEnabled": true,
@@ -161,22 +161,22 @@ Object {
       "Type": "AWS::WAFv2::WebACL",
     },
   },
-  "Rules": Object {
-    "CheckBootstrapVersion": Object {
-      "Assertions": Array [
-        Object {
-          "Assert": Object {
-            "Fn::Not": Array [
-              Object {
-                "Fn::Contains": Array [
-                  Array [
+  "Rules": {
+    "CheckBootstrapVersion": {
+      "Assertions": [
+        {
+          "Assert": {
+            "Fn::Not": [
+              {
+                "Fn::Contains": [
+                  [
                     "1",
                     "2",
                     "3",
                     "4",
                     "5",
                   ],
-                  Object {
+                  {
                     "Ref": "BootstrapVersion",
                   },
                 ],
