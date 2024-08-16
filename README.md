@@ -13,15 +13,15 @@ This construct creating resource list.
 ### TypeScript
 
 ```shell
-npm install @gammarer/aws-waf-managed-rules-set-web-acl
+npm install @gammarers/aws-waf-managed-rules-set-web-acl
 # or
-yarn add @gammarer/aws-waf-managed-rules-set-web-acl
+yarn add @gammarers/aws-waf-managed-rules-set-web-acl
 ```
 
 ## Example
 
 ```typescript
-import { ScopeType, WafManagedRulesSetWebACL } from '@gammarer/aws-waf-managed-rules-set-web-acl';
+import { ScopeType, WafManagedRulesSetWebACL } from '@gammarers/aws-waf-managed-rules-set-web-acl';
 
 const webAcl = new WafManagedRulesSetWebACL(stack, 'WafManagedRulesSetWebACL', {
   scope: ScopeType.REGIONAL,
