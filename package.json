@@ -1,9 +1,9 @@
 {
-  "name": "@gammarer/aws-waf-managed-rules-set-web-acl",
+  "name": "@gammarers/aws-waf-managed-rules-set-web-acl",
   "description": "This is an AWS CDK Construct for AWS Managed Rules Sets Web ACL on WAF V2.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yicr/aws-waf-managed-rules-set-web-acl.git"
+    "url": "https://github.com/gammarers/aws-waf-managed-rules-set-web-acl.git"
   },
   "scripts": {
     "build": "npx projen build",
