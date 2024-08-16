@@ -14,7 +14,7 @@ const project = new awscdk.AwsCdkConstructLibrary({
   repositoryUrl: 'https://github.com/yicr/aws-waf-managed-rules-set-web-acl.git',
   npmAccess: javascript.NpmAccess.PUBLIC,
   minNodeVersion: '16.0.0',
-  workflowNodeVersion: '20.11.0',
+  workflowNodeVersion: '22.4.x',
   releaseToNpm: true,
   stability: 'experimental', // stable
   depsUpgradeOptions: {
