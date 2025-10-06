@@ -369,7 +369,7 @@ node metadata ends up in the Cloud Assembly.)
 ##### `obtainDependencies` <a name="obtainDependencies" id="@gammarers/aws-waf-managed-rules-set-web-acl.WafManagedRulesSetWebACL.obtainDependencies"></a>
 
 ```typescript
-public obtainDependencies(): Stack | CfnResource[]
+public obtainDependencies(): (Stack | CfnResource)[]
 ```
 
 Retrieves an array of resources this resource depends on.
@@ -833,7 +833,7 @@ You cannot change the name of a web ACL after you create it.
 ##### `rules`<sup>Optional</sup> <a name="rules" id="@gammarers/aws-waf-managed-rules-set-web-acl.WafManagedRulesSetWebACL.property.rules"></a>
 
 ```typescript
-public readonly rules: IResolvable | IResolvable | RuleProperty[];
+public readonly rules: IResolvable | (IResolvable | RuleProperty)[];
 ```
 
 - *Type:* aws-cdk-lib.IResolvable | aws-cdk-lib.IResolvable | aws-cdk-lib.aws_wafv2.CfnWebACL.RuleProperty[]
